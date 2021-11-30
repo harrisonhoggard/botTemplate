@@ -165,7 +165,7 @@ public class MemberPanel extends JPanel {
 				for (int k = 0; k < banList.size(); k++)
 				{
 					
-					list2.add((k+1) + ") " + banList.get(k).getUser().getAsMention() + " " + banList.get(j).getUser().getName());
+					list2.add((k+1) + ") " + banList.get(k).getUser().getAsMention() + " " + banList.get(k).getUser().getName());
 				}
 			}
 			
